@@ -1,0 +1,50 @@
+﻿<addons>
+
+<addon id="plugin.video.stalker" name="IPTV Stalker" version="9.0.19" provider-name="esxbr">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="server.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">IPTV Stalker-mod</summary>
+		<description lang="en">IPTV Stalker modified for NFPS, Rocket and IPTV66, AND iVue TV Guide</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>http://iptvtalk.org/showthread.php?7379-Modified-IPTV-Stalker-(9-0-18)-iVue-compatible / </forum>
+	</extension>
+</addon>
+
+<addon id="repo.prostreams" name="ProStreams Repository" version="0.0.1" provider-name="ProStreams">
+	<extension point="xbmc.addon.repository" name="Pro streams TV Guide Repository">
+		<info compressed="false">https://raw.githubusercontent.com/prostreams/repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/prostreams/repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/prostreams/repo/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install ProStreams Dedicated TV Guide </summary>
+		<description>Download and install Routine for prostreams addons </description>
+		<disclaimer> Repository for the Dedicated ProStreams Tv guide addon </disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.prostreams" name="ProStreams TV Guide" version="0.0.2" provider-name="ProStreams">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+	<provides>video</provides>
+	<provides>programs</provides>
+		<description lang="en">ProStreams TV Guide dedicated tv guide for iptv Stalker systems</description>
+		<disclaimer lang="en">Prostreams Guide is forked and based on FTV Guide, Dixie , Ivue , tommy winthers original code, </disclaimer>
+	</extension>
+</addon>
+
+</addons>
