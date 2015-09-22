@@ -1,6 +1,6 @@
 ﻿<addons>
 
-<addon id="plugin.video.stalker" name="IPTV Stalker" version="9.0.19" provider-name="esxbr">
+<addon id="plugin.video.stalker" name="IPTV Stalker" version="9.0.20" provider-name="esxbr">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
