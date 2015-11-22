@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.proskins" name="Pro Skins" version="0.0.1" provider-name="Prostreams">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pro Stream TV Guide Skins</summary>
+    <description lang="en">TV Guide Skins Thanks to all authors of the code</description>
+    <platform>all</platform>
+  </extension>
+</addon>
