@@ -1,5 +1,24 @@
 ﻿<addons>
 
+<addon id="plugin.video.prolive"
+       name="Pro Live"
+       version="0.0.2"
+       provider-name="anybody">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Pro Live Streams</summary>
+    <language>en</language>
+    <description lang="en">Pro Live Addon</description>
+     <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.proskins" name="Pro Skins" version="0.0.1" provider-name="Prostreams">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
