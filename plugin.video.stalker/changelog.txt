@@ -55,3 +55,9 @@ Initial modification to stop serial number and ivue compatible
 
 9.0.19 (dara)
 Fixed portal selection as standalone.
+
+9.0.21 (dara)
+Force entry of serial number
+
+10.0.0 (dara)
+Add login/password authentication, removed EPG code.  Disabled VoD load. Allows for empty credential fields when sending custom credentials. Customizes server selection, vs. using a portal url. 

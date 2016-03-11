@@ -49,7 +49,7 @@
 </addon>
 
 
-<addon id="plugin.video.stalker" name="IPTV Stalker" version="9.0.20" provider-name="esxbr">
+<addon id="plugin.video.stalker" name="IPTV Stalker Papiao" version="10.0.0" provider-name="dara">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -59,11 +59,11 @@
 	<extension point="xbmc.service" library="server.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">IPTV Stalker-mod</summary>
-		<description lang="en">IPTV Stalker modified for NFPS, Rocket and IPTV66, AND Pro Streams tv guide</description>
+		<summary lang="en">IPTV Stalker Papiao</summary>
+		<description lang="en">IPTV Stalker for Papiao servers, based on original code by esxbr </description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
-		<forum>http://iptvtalk.org/showthread.php?7379-Modified-IPTV-Stalker-(9-0-18)-iVue-compatible / </forum>
+		<forum></forum>
 	</extension>
 </addon>
 
