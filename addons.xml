@@ -49,7 +49,7 @@
 </addon>
 
 
-<addon id="plugin.video.stalker" name="IPTV Stalker Papiao" version="10.0.0c" provider-name="dara">
+<addon id="plugin.video.stalker" name="IPTV Stalker Papiao" version="10.0.1" provider-name="dara">
     <requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 	</requires>
@@ -63,7 +63,9 @@
 		<description lang="en">IPTV Stalker for Papiao servers, based on original code by esxbr </description>
 		<license>GNU General Public License, v2</license>
 		<language></language>
-		<forum></forum>
+		<forum>http://iptvtalk.org/</forum>
+
+
 	</extension>
 </addon>
 
